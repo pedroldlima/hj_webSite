@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root {
+    --white: #fff,
+        --black: #000,
+
+        --section-red: #DA2222,
+        --section-gray: #2B2A2A,
+}
+
+canvas {
+    height: 100vh !important;
+    z-index: 00;
+}
+
+.body {
+    background-color: black;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.heroPage {
+    display: flex;
+    width: 77%;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    z-index: 100;
+}
