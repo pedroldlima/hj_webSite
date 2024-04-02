@@ -17,7 +17,7 @@ export default function Hologran(props) {
   return (
     <group ref={group} {...props} dispose={null}>
       <group name="Sketchfab_Scene">
-        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} scale={4}>
+        <group name="Sketchfab_model" rotation={[-Math.PI / 2, 0, 0]} scale={5}>
           <group name="d4e286c425e847e78723a56ea435af67fbx" rotation={[Math.PI / 2, 0, 0]}>
             <group name="Object_2">
               <group name="RootNode">

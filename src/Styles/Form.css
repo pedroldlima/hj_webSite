@@ -1,0 +1,53 @@
+.cont {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding: 20px;
+    height: 80vh; 
+}
+
+.form-group {
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid rgb(187, 187, 187);
+}
+
+.form-group textarea {
+    width: 100%;
+    height: 200px;
+    resize: none;
+    padding: 5px;
+    border: 1px solid rgb(187, 187, 187)
+}
+
+.btn {
+    position: relative;
+    top: 200px;
+    padding: 5px;
+}
+
+.btn button {
+    width: 400px;
+    height: 50px;
+}
+
+.contact-info {
+    position: relative;
+    top: 30px;
+    height: 300px;
+    width: 250px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    line-height: 30px;
+}
+

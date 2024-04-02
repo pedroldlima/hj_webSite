@@ -1,0 +1,23 @@
+.containere {
+    padding: 100px;
+  }
+  
+  .divider {
+    border: 0;
+    height: 1px;
+    background-color: black;
+    margin: 20px 0;
+  }
+  
+  .car {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .cartao {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  

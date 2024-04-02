@@ -1,0 +1,18 @@
+.about {
+    background-color: #2B2A2A;
+    height: 35vh !important;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text {
+    width: 80%;
+
+    text-align: center;
+    color: #fff;
+}
+.about-text h1 {
+    margin-bottom: 30px;
+}

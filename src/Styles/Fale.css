@@ -1,0 +1,11 @@
+.falar-section {
+    background-color: red;
+    padding: 40px;
+}
+
+.falar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

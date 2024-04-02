@@ -1,0 +1,28 @@
+.segment-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(106, 108, 109);
+    margin-top: 40px;
+}
+.segmentos-container {
+    width: 70%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.card img {
+    height: 130px !important;
+    object-fit: cover;
+}
+
