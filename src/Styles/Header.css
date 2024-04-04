@@ -7,14 +7,14 @@
 
 .header {
     position: fixed;
-    background-color: #2B2A2A;
+    background-color: #ffffff;
     width: 70%;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
     z-index: 100;
-    box-shadow: 1px 4px 10px 1px #fff;
 }
 
 .header.scrolled {
@@ -28,9 +28,26 @@
 
 .menu-links {
     display: flex;
+    align-items: center;
 }
 
 .menu-links li {
     margin: 15px;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+/* active */
+
+.active {
+    display: flex;
+    background-color: #DA2222;
+    height: 20px;
+    align-items: center;
+    padding: 10px;
+}
+.active p {
     color: #fff;
 }
+

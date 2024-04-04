@@ -6,33 +6,48 @@ body {
 
 /* Header */
 .large-header {
-	position: relative;
-	width: 100%;
-	background: #333;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
-	z-index: 1;
+    position: relative;
+    width: 100%;
+    background: url(../assets/backgrounds/city.jpg);
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    z-index: 1;
 }
 
+.large-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+    z-index: 2;
+}
 
-.main-title {
-	position: absolute;
-	margin: 0;
-	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
+.color {
+    color: #DA2222;
+    font-weight: bold;
+}
+.large-header .main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: rgba(236, 236, 236, 0.856); /* Cor com opacidade */
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    z-index: 50;
 }
 .main-title h1 {
     margin-bottom: 20px;
     font-size: 50px;
 }
 .main-title p {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .demo-1 .main-title {
@@ -44,6 +59,8 @@ body {
 .main-title .thin {
 	font-weight: 200;
 }
+
+
 
 
 @media only screen and (max-width : 768px) {
@@ -87,5 +104,6 @@ body {
     border: none;
 
 }
+
 
 

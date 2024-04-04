@@ -1,17 +1,19 @@
 import React, { useState } from "react";
-import '../Styles/Accordion.css'; // Importe estilos CSS para o Accordion
+import '../Styles/Accordion.css';
 
 export default function Accordion() {
 
     return (
         <div className="accordion">
+            <h1>Perguntas Frequentes</h1>
             <div className="accordion-dtls">
                 <details open>
                     <summary>
                         Oque e necessario para utilizar o sistema?
                     </summary>
                     <div>
-                        Easy! As long as you don't have to support IE11 or older browsers you could use <code>&lt;details&gt;</code> and <code>&lt;summary&gt;</code> natively.
+                        Para inicio recomendamos computador para instalação do sistema;
+                        Internet e certificado digital para validação das notas fiscais, e uma impressora para imprimir relatórios e Notas fiscais.
                     </div>
                 </details>
                 <details>
@@ -19,7 +21,7 @@ export default function Accordion() {
                         Precisa internet?
                     </summary>
                     <div>
-                        No worries. The fallback for these elements is quite good. They will display as open. You won't get the open/close mechanism, but you won't lose any content either.
+                        Não, caso tenha alguma interrupção no sinal o sistema funcionara. Porém, as notas fiscais serão emitidas quando o sinal de internet estiver restabelecido
                     </div>
                 </details>
                 <details>

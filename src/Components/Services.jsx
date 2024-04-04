@@ -10,8 +10,8 @@ export default function Services() {
         <div className="services-section">
             <div className="services">
                 <div className="text-services">
-                    <h1>Nossos Sistemas</h1>
-                    <p>Soluções completas para gerenciar o seu negócio</p>
+                    <h1>Nossos <span className="color">Sistemas</span></h1>
+                    <p className="color">Soluções completas para gerenciar o seu negócio</p>
                 </div>
 
                 <div className="services-grid">

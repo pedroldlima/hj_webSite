@@ -1,7 +1,6 @@
 // HomePage.js
 import React, { useEffect } from "react";
 import Header from "../Components/Header";
-import About from "../Components/About";
 import Services from "../Components/Services";
 import "../Styles/Home.css";
 import { gsap } from "gsap";
@@ -187,7 +186,7 @@ export default function HomePage() {
     }, []);
 
     return (
-        <div>
+        <div id="home-section">
             <div id="large-header" className="large-header">
                 <Header />
                 <canvas id="demo-canvas"></canvas>
@@ -196,14 +195,14 @@ export default function HomePage() {
                         HJ <span className="thin">Systems</span>
                     </h1>
                     <p>
-                        A HJ SYSTEMS é uma empresa sediada na cidade de Goiânia – GO
+                        A <span className="color">HJ SYSTEMS</span> é uma empresa sediada na cidade de Goiânia – GO
                         especializada no desenvolvimento de soluções integradas para gestão
                         de empresas. Atuando no mercado de tecnologia da informação desde
                         1990, a empresa vem acumulando experiência, credibilidade e
                         qualificação técnica, permitindo assim um correto gerenciamento,
                         direção e rapidez nos negócios de sua empresa, é uma ferramenta
                         prática, simples e eficiente que se adapta as particularidades e
-                        necessidades da sua empresa para o crescimento no mercado atual.
+                        necessidades da <span className="color">sua empresa</span> para o crescimento no mercado atual.
                     </p>
 
                     <div className="button">
@@ -213,11 +212,10 @@ export default function HomePage() {
             </div>
 
             <section id="sistemas-section">
-                {/* Conteúdo da seção Contato */}
                 <Services />
             </section>
 
-            <section id="">
+            <section id="segmentos">
                 <Segmentos />
             </section>
 

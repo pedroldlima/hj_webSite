@@ -1,6 +1,10 @@
 .falar-section {
-    background-color: red;
+    background-color: #DA2222;
     padding: 40px;
+}
+
+.best {
+    color: #2B2A2A;
 }
 
 .falar {
@@ -8,4 +12,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: #fff;
+}
+
+.falar p {
+    font-size: 20px;
+}
+
+.button button {
+    background-color: #fff;
+    color: #DA2222;
+    margin-top: -30px;
 }

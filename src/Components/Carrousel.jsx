@@ -18,7 +18,7 @@ export default function Carrousel({ companies }) {
 
     return (
         <div className="container-slider">
-            <h1>Empresas que trabalham conosco</h1>
+            <h1>Empresas que confiam em <span className="color">nosso trabalho</span></h1>
             <div class="slider">
                 <div class="slide-track">
                     <div class="slide">

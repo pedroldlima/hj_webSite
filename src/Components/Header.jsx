@@ -31,9 +31,15 @@ export default function Header() {
         <ul className="menu-links">
           <li onClick={() => scrollToSection("home-section")}>Home</li>
           <li onClick={() => scrollToSection("sistemas-section")}>Sistemas</li>
+          <li onClick={() => scrollToSection("segmentos")}>Segmentos</li>
+          <li onClick={() => scrollToSection("integracoes")}>Integracoes</li>
           <li onClick={() => scrollToSection("contato-section")}>Contato</li>
           <li onClick={() => scrollToSection("recursos-section")}>Recursos</li>
           <li onClick={() => scrollToSection("duvidas-section")}>Duvidas</li>
+
+          <li className="active" onClick={() => scrollToSection("duvidas-section")}>
+            <p>HJ Systems</p>
+          </li>
         </ul>
       </div>
     </div>

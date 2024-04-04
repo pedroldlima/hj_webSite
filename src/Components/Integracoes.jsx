@@ -1,36 +1,45 @@
 import React from 'react';
 import '../Styles/Integracoes.css'; // Estilos CSS separados
 
+
+//img
+import caixa from '../assets/svg/caixa.png'
+import money from '../assets/svg/money.png'
+import cart from '../assets/svg/cart.png'
+import mapa from '../assets/svg/mapa.png'
+import erp from '../assets/svg/erp.png'
+import franquia from '../assets/svg/franquia.png'
+
 const cardsData = [
   {
-    title: 'Card 1',
-    image: 'https://via.placeholder.com/150',
-    text: 'Texto do Card 1'
+    title: 'Gerenciador Financeiro',
+    image: money,
+    text: 'Controle de caixa, Conciliação de cartões, Conciliação bancária,  DRE.'
   },
   {
-    title: 'Card 2',
-    image: 'https://via.placeholder.com/150',
-    text: 'Texto do Card 2'
+    title: 'Ponto de Venda -PDV',
+    image: caixa,
+    text: 'Vendas expressas, Emissão de cupons e notas, Gerencia de estoque.'
   },
   {
-    title: 'Card 3',
-    image: 'https://via.placeholder.com/150',
-    text: 'Texto do Card 3'
+    title: 'Venda Direta',
+    image: cart,
+    text: 'Pedidos, Conferências, Controle de Volume.'
   },
   {
-    title: 'Card 4',
-    image: 'https://via.placeholder.com/150',
-    text: 'Texto do Card 4'
+    title: 'Rota de entrega',
+    image: mapa,
+    text: 'Gerenciamento de rota, Confirmação de entregas, controle de recebimento.'
   },
   {
-    title: 'Card 5',
-    image: 'https://via.placeholder.com/150',
-    text: 'Texto do Card 5'
+    title: 'Sistema Integrado - ERP',
+    image: erp,
+    text: 'Gerenciador multinegócios.'
   },
   {
-    title: 'Card 6',
-    image: 'https://via.placeholder.com/150',
-    text: 'Texto do Card 6'
+    title: 'Gerenciador de Franquias',
+    image: franquia,
+    text: 'Controle de franquias, Gestão estratégica, Fluxo de caixa.'
   }
 ];
 
@@ -43,10 +52,15 @@ const Card = ({ title, image, text }) => (
 );
 
 const Integracoes = () => (
-  <div className="container">
-    {cardsData.map((card, index) => (
-      <Card key={index} {...card} />
-    ))}
+  <div className='conty'>
+    <h1>Integracoes</h1>
+    <div className='container-int'>
+      <div className="container">
+        {cardsData.map((card, index) => (
+          <Card key={index} {...card} />
+        ))}
+      </div>
+    </div>
   </div>
 );
 

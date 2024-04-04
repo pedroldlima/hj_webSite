@@ -18,6 +18,7 @@ import Industria from '../assets/industria.png'
 export default function Segmentos() {
     return (
         <div className="segment-center">
+            <h1>Segmentos atendidos </h1>
             <div className="segmentos-container">
                 <div className="card">
                     <img src={Pet} alt="" />
@@ -31,12 +32,12 @@ export default function Segmentos() {
 
                 <div className="card">
                     <img src={Confec} alt="" />
-                    Confecção
+                    <p>Confecções e Fábricas</p>
                 </div>
 
                 <div className="card">
                     <img src={Mecanica} alt="" />
-                    Mecanica
+                    <p>Cosméticos</p>
                 </div>
 
                 <div className="card">
@@ -63,19 +64,19 @@ export default function Segmentos() {
                     <img src={Ferra} alt="" />
                     Ferragista
                 </div>
-              
+
                 <div className="card">
                     <img src={cosmetico} alt="" />
                     <p>Cosmetico</p>
                 </div>
 
                 <div className="card">
-                    <img src={  logistica} alt="" />
+                    <img src={logistica} alt="" />
                     <p>Logistica</p>
                 </div>
 
                 <div className="card">
-                    <img src={ Industria} alt="" />
+                    <img src={Industria} alt="" />
                     <p>Logistica</p>
                 </div>
 

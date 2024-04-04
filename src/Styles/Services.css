@@ -1,5 +1,5 @@
 .services-section {
-    padding: 20px;
+    padding: 10px;
 }
 .services {
     display: flex;
@@ -11,20 +11,23 @@
     text-align: center;
     margin-bottom: 30px;
 }
+.text-services h1 {
+    font-size: 30px;
+}
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    width: 80%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   
+    width: 70%;
 }
 .cards {
-    box-shadow: 1px 5px 10px 1px #000;
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
     text-align: center;
     height: 90%;
+    border: 1px solid #000;
 }
 .gestao img {
     width: 50%;

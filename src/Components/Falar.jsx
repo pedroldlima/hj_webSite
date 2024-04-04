@@ -6,7 +6,7 @@ export default function Falar() {
     return (
         <div className="falar-section"> 
             <div className="falar">
-                <h1>Ainda nao descobriu a melhor solucao para o seu negocio?</h1>
+                <h1>Ainda nao <span className="best">descobriu a melhor</span> solucao para o seu negocio?</h1>
                 <p>Nossos consultores podem ajudar.</p>
 
                 <div className="button">

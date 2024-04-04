@@ -1,5 +1,6 @@
 @mixin white-gradient {
 	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+	padding: 20px;
 }
 
 $animationSpeed: 40s;
@@ -13,13 +14,13 @@ $animationSpeed: 40s;
 
 // Styling
 .slider {
-	background: white;
-	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	background-color: rgb(255, 255, 255);
 	height: 100px;
 	margin: auto;
 	overflow:hidden;
 	position: relative;
 	width: 960px;
+	padding: 20px;
 	
 	&::before,
 	&::after {
@@ -57,13 +58,14 @@ $animationSpeed: 40s;
 }
 .container-slider {
 	text-align: center;
-	height: 30vh;
+	height: 50vh;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 
 	 h1 {
+		font-weight: lighter;
 		margin-top: 20px;
 	}
 }
