@@ -1,5 +1,6 @@
 .services-section {
     padding: 10px;
+    height: 100%;
 }
 .services {
     display: flex;
@@ -12,27 +13,59 @@
     margin-bottom: 30px;
 }
 .text-services h1 {
-    font-size: 30px;
+    font-size: 40px;
+}
+.text-services p {
+    font-size: 20px;
 }
 
+.color {
+    color: #DA2222;
+}
 .services-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
    
+    align-items: center;
     width: 70%;
+    height: 100%;
+}
+@media (max-width: 1033px ) {
+    .services-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }
 .cards {
     border-radius: 20px;
     padding: 20px;
     margin: 20px;
     text-align: center;
-    height: 90%;
-    border: 1px solid #000;
+
 }
 .gestao img {
     width: 50%;
     max-width: 200px;
     height: auto;
+}
+
+
+.sinapse {
+    background-color: rgb(20, 20, 41);
+    box-shadow: 1px 1px 10px 1px #000;
+    color: #fff;
+    font-size: 17px;
+}
+.gestao {
+    background-color: rgb(20, 20, 41);
+    box-shadow: 1px 1px 10px 1px #000;
+    color: #fff;
+    font-size: 17px;
+}
+.sysweb {
+    background-color: rgb(20, 20, 41);
+    box-shadow: 1px 1px 10px 1px #000;
+    color: #fff;
+    font-size: 17px;
 }
 
 

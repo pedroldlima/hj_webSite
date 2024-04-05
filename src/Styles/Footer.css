@@ -1,0 +1,61 @@
+.footer {
+    background-color: rgb(20, 20, 41);
+    color: #fff;
+    padding: 20px; 
+}
+
+.section-links {
+    border-bottom: 1px solid #fff;
+    padding: 20px 0; 
+    text-align: center; 
+}
+
+.section-links ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+.section-links ul li {
+    margin: 10px; 
+}
+
+.icons {
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.icons .icn {
+    margin: 0 10px; 
+}
+
+.instagram,
+.facebook {
+    font-size: 25px;
+}
+
+.botao {
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.botao button {
+    width: 100%; 
+    max-width: 250px; 
+    height: 45px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+
+.botao p {
+    margin: 0; 
+    font-size: 14px; 
+}

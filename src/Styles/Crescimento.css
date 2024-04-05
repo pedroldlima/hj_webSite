@@ -21,4 +21,9 @@
     padding: 20px;
     border-radius: 8px;
   }
+
+  .cartao p {
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+  }
   

@@ -29,7 +29,7 @@ export default function Accordion() {
                         A instalacao e treinamento e feito online ou presencialmente?
                     </summary>
                     <div>
-                        Almost anything you'd like. The <code>&lt;details&gt;</code> element allows all <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#flow_content" target="_blank">flow content</a>, which is basically everything.
+                        A instalação e treinamento podem ser feitos tanto online como presencial, a critério do cliente.
                     </div>
                 </details>
                 <details>
@@ -37,7 +37,7 @@ export default function Accordion() {
                         Alem de emitir as notas fiscais, quais as principais funcionalidades do sistema?
                     </summary>
                     <div>
-                        The <code>&lt;details&gt;</code> element encapsulates the <code>&lt;summary&gt;</code> element. The <code>&lt;summary&gt;</code> becomes the 'label' for the <code>&lt;details&gt;</code> and acts like a button. When clicked, the attribute <code>open</code> is added to the <code>&lt;details&gt;</code> element, making it display. You can therefore style the open and closed states seperately if you'd like.
+                        Controle de Financeiro, Orçamento, Ordem de serviço, Comanda eletrônica, Relatorios, cadastro de produtos, Controle de Estoque, recibo avulso entre outros.
                     </div>
                 </details>
                 <details>
@@ -45,7 +45,7 @@ export default function Accordion() {
                         Quais as vantagens de contratar o sistema da HJ Systems?
                     </summary>
                     <div>
-                        The <code>&lt;details&gt;</code> element encapsulates the <code>&lt;summary&gt;</code> element. The <code>&lt;summary&gt;</code> becomes the 'label' for the <code>&lt;details&gt;</code> and acts like a button. When clicked, the attribute <code>open</code> is added to the <code>&lt;details&gt;</code> element, making it display. You can therefore style the open and closed states seperately if you'd like.
+                        O sistema HJ Systems traz como um dos principais benefícios a otimização de todos os processos e o controle total das operações da sua empresa, contando com uma equipe de especialistas para dar todo suporte necessário para utilização do sistema.
                     </div>
                 </details>
             </div>

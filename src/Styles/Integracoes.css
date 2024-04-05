@@ -1,11 +1,14 @@
 .conty {
-padding: 100px;
-text-align: center;
-background-color: #2B2A2A;
+  padding: 60px;
+  text-align: center;
+  background-color: rgb(20, 20, 41);
+  height: 100%;
 }
+
 .conty h1 {
   margin-bottom: 20px;
   color: #fff;
+  font-size: 35px;
 }
 
 .container-int {
@@ -13,26 +16,39 @@ background-color: #2B2A2A;
   flex-direction: column;
   align-items: center;
 }
-.container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
 
-    width: 70%;
-  }
-  
-  .cardes {
-    background-color: rgb(255, 255, 255);
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-  }
-  .cardes img {
-    width: 150px;
-  }
-  
-  .card img {
-    width: 100%;
-    height: auto;
-  }
-  
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+}
+
+.cardes {
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  padding: 25px;
+  text-align: center;
+  display: flex; 
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  transition: 0.10s;
+}
+.cardes:hover {
+ 
+ box-shadow: 1px 1px 10px 1px #ff0000;
+ opacity: 1.2;
+ cursor: pointer;
+}
+
+.cardes img {
+  width: 150px;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
