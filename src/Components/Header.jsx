@@ -2,6 +2,9 @@
 import React, { useState, useEffect } from "react";
 import "../Styles/Header.css";
 
+import { Link } from "react-router-dom";
+
+
 export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -45,8 +48,8 @@ export default function Header() {
           <li onClick={() => scrollToSection("contato-section")}>Contato</li>
 
           <li onClick={() => scrollToSection("duvidas-section")}>Dúvidas</li>
-          <li className="active" onClick={() => scrollToSection("duvidas-section")}>
-            <p>HJ Systems</p>
+          <li className="active">
+            <Link to="/Hjsystems">Hjsystems</Link>
           </li>
         </ul>
       </div>
