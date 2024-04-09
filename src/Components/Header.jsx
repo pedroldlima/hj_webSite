@@ -48,9 +48,11 @@ export default function Header() {
           <li onClick={() => scrollToSection("contato-section")}>Contato</li>
 
           <li onClick={() => scrollToSection("duvidas-section")}>Dúvidas</li>
-          <li className="active">
-            <Link to="/Hjsystems">Hjsystems</Link>
-          </li>
+          <div className="active">
+            <li>
+              <Link className="fff" to="/Hjsystems">Hjsystems</Link>
+            </li>
+          </div>
         </ul>
       </div>
     </div>

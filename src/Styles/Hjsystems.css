@@ -1,0 +1,158 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.voltar {
+    background-image: url(../assets/hjsystems/bg.jpg);
+    color: #fff;
+    background-position: center;
+    padding: 30px;
+}
+
+.about-us {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    background-image: url(../assets/hjsystems/bg.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    
+}
+
+@media (max-width: 944px) {
+    .about-us {
+        display: block;
+    }
+}
+
+.about-text h1 {
+    font-size: 45px;
+    color: #DA2222;
+}
+
+.about-text p {
+    font-size: 18px;
+}
+
+.text-hj {
+    width: 50%;
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+.text-hj p {
+    color: #000;
+    font-size: 20px;
+}
+
+.slider-img {
+    width: 50%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    transition: opacity 0.5s ease;
+}
+
+.slider-img img:nth-child(n + 2) {
+    opacity: 0;
+}
+
+@media (max-width: 944px) {
+    .text-hj {
+        width: 80%;
+       
+        margin: auto;
+        text-align: left;
+    }
+
+    .slider-img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+    }
+    .slider-img img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.about-team {
+    color: #fff;
+    background-image: url(../assets/hjsystems/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+   
+    padding: 30px;
+    height: 100%;
+}
+@media (max-width: 944px) {
+    .about-team {
+        background-image: url(../assets/hjsystems/bg.jpg);
+        background-size: 250%;
+    }
+}
+.about-team h1 {
+    margin-bottom: 20px;
+    color: #DA2222;
+}
+.about-team p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.mapa-services {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-mapa {
+    width: 50%;
+}
+
+@media (max-width: 944px) {
+    .mapa-services {
+        display: block;
+    }
+    .mapa img {
+        width: 400px;
+    }
+    .text-mapa {
+        width: 100%;
+        padding: 10px;
+        background-image: url(../assets/hjsystems/bg.jpg);
+        
+        background-repeat: no-repeat;
+       
+        color: #fff;
+    }
+}
+.strong {
+    color: #DA2222;
+    font-weight: bold;
+}

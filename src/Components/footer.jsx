@@ -4,27 +4,27 @@ import '../Styles/Footer.css'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 
-
-
 export default function Footer() {
     return (
         <div className="footer">
             <div className="section-links">
-            
                 <p>atendimento@hjsystems.com.br</p>
             </div>
             <div className="icons">
                 <div className="icn">
-                    <FaInstagram className="instagram" />
+                    <a href="https://www.instagram.com/hj_systems/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className="instagram" />
+                    </a>
                 </div>
 
                 <div className="icn">
-                    <FaFacebook  className="facebook"/>
+                    <a href="https://www.facebook.com/hjsystems" target="_blank" rel="noopener noreferrer">
+                        <FaFacebook  className="facebook"/>
+                    </a>
                 </div>
             </div>
 
             <div className="botao">
-                <button onClick={() => scrollToSection("home-section")}>Voltar para o Topo</button>
                 <p>Todos Direitos reservados a Hj Systems</p>
             </div>
         </div>

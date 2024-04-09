@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px;
+    width: 100%;
 }
 
 .header {
@@ -13,9 +14,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 30px;
+   
     z-index: 100;
 }
+
 
 .header.scrolled {
     position: fixed;
@@ -72,18 +74,20 @@
 .active {
     display: flex;
     background-color: #DA2222;
-    height: 100%;
-    width: 100%;
     align-items: center;
-    padding: 10px;
+    height: 40px;
 }
 
-.active p {
+.fff {
     color: #fff;
+    text-decoration: none;
 }
 
 /* Media Query para telas pequenas */
 @media (max-width: 768px) {
+    .header {
+        border-bottom-left-radius: none;
+    }
     .menu-toggle {
         display: block;
         position: absolute;
@@ -108,5 +112,6 @@
     .menu-links.open {
         display: flex;
         flex-direction: column;
+        
     }
 }
